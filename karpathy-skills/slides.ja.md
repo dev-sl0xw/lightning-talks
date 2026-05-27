@@ -10,7 +10,7 @@ footer: 'カルパシー4原則の適用結果 / 2026'
 # カルパシー4原則を実際に試してみた
 ## 本当に効果があるのか、A/Bで検証
 
-<small>ムン · 2026-05-27</small>
+ムン · 2026-05-27
 
 ---
 
@@ -175,6 +175,6 @@ footer: 'カルパシー4原則の適用結果 / 2026'
 > 仮説ではなく検証です。
 > 検証は誰でも5分で始められます。
 
-- 8つの worktree · 4つのトラップタスク · 全 diff 公開
-- 再現手順: `karpathy-skills/experiment/results.md`
-- 次の LT 候補: 「自分で作った CLAUDE.md 一枚」
+**github.com/multica-ai/andrej-karpathy-skills**
+
+→ 上記リポジトリから、そのまま始めてみてください。

@@ -10,7 +10,7 @@ footer: 'Karpathy 4원칙 적용 결과 / 2026'
 # 카파시 4원칙을 직접 돌려봤다
 ## 정말 효과가 있는지, A/B로 확인
 
-<small>ムン · 2026-05-27</small>
+ムン · 2026-05-27
 
 ---
 
@@ -175,6 +175,6 @@ footer: 'Karpathy 4원칙 적용 결과 / 2026'
 > 가설이 아니라 검증입니다.
 > 검증은 누구나 5분이면 시작합니다.
 
-- 8개 워크트리 · 4개 함정 태스크 · 모든 diff 공개
-- 재현 절차: `karpathy-skills/experiment/results.md`
-- 다음 LT 후보: "내가 직접 만든 CLAUDE.md 1장"
+**github.com/multica-ai/andrej-karpathy-skills**
+
+→ 위 리포지토리에서 바로 시작해보세요.
