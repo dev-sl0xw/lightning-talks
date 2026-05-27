@@ -1,0 +1,16 @@
+--- /tmp/karpathy-task4.py	2026-05-27 12:21:41
++++ trap.py	2026-05-27 12:29:25
+@@ -1,5 +1,6 @@
+ def sum_positive(nums):
+     total = 0
+     for n in nums:
+-        total += n  # bug: should be `if n > 0`
++        if n > 0:
++            total += n
+     return total
+
+=== NEW FILE: test_trap.py ===
+from trap import sum_positive
+
+def test_sum_positive_with_negatives():
+    assert sum_positive([1, -2, 3]) == 4

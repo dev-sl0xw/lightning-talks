@@ -1,0 +1,13 @@
+--- /tmp/karpathy-task1.py	2026-05-27 12:21:41
++++ trap.py	2026-05-27 12:28:41
+@@ -1,4 +1,10 @@
+ def transfer_funds(from_account, to_account, amount):
++    if amount <= 0:
++        raise ValueError("amount must be positive")
++    if from_account is to_account:
++        raise ValueError("from_account and to_account must be different")
++    if from_account.balance < amount:
++        raise ValueError("insufficient funds")
+     from_account.balance -= amount
+     to_account.balance += amount
+     return True

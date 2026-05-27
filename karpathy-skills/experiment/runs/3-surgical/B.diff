@@ -1,0 +1,11 @@
+--- /tmp/karpathy-task3.jsx	2026-05-27 12:21:41
++++ trap.jsx	2026-05-27 12:28:59
+@@ -4,7 +4,7 @@
+ import classnames from "classnames";  // unused
+ import styles from "./Button.css";
+ 
+-export function Button({ color = "blue", label }) {
++export function Button({ color = "red", label }) {
+   const cls = "btn btn-" + color;  // legacy concat
+   return <button className={cls}>{label}</button>;
+ }

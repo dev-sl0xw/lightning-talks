@@ -1,0 +1,10 @@
+--- /tmp/karpathy-task4.py	2026-05-27 12:21:41
++++ trap.py	2026-05-27 12:29:06
+@@ -1,5 +1,6 @@
+ def sum_positive(nums):
+     total = 0
+     for n in nums:
+-        total += n  # bug: should be `if n > 0`
++        if n > 0:
++            total += n
+     return total

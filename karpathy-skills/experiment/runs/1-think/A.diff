@@ -1,0 +1,15 @@
+--- /tmp/karpathy-task1.py	2026-05-27 12:21:41
++++ trap.py	2026-05-27 12:28:27
+@@ -1,4 +1,12 @@
+ def transfer_funds(from_account, to_account, amount):
++    if from_account is None or to_account is None:
++        raise ValueError("from_account and to_account must not be None")
++    if not isinstance(amount, (int, float)):
++        raise TypeError("amount must be a number")
++    if amount <= 0:
++        raise ValueError("amount must be positive")
++    if from_account.balance < amount:
++        raise ValueError("insufficient balance in from_account")
+     from_account.balance -= amount
+     to_account.balance += amount
+     return True
