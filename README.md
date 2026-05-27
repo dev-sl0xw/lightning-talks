@@ -11,6 +11,8 @@
 
 LT #2 의 A/B 실험 원본 데이터는 [`karpathy-skills/experiment/`](./karpathy-skills/experiment/) 참조.
 
+**📄 PDF 다운로드:** [Releases (latest)](https://github.com/dev-sl0xw/lightning-talks/releases/latest) — 두 LT 한·일본어 PDF 4개 첨부.
+
 ---
 
 ## 사전 준비
