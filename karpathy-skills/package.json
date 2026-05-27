@@ -1,0 +1,16 @@
+{
+  "name": "karpathy-skills-lt",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build:ko:html": "marp slides.ko.md -o build/slides.ko.html",
+    "build:ko:pdf": "marp slides.ko.md --pdf --allow-local-files -o build/slides.ko.pdf",
+    "build:ja:html": "marp slides.ja.md -o build/slides.ja.html",
+    "build:ja:pdf": "marp slides.ja.md --pdf --allow-local-files -o build/slides.ja.pdf",
+    "preview:ko": "marp slides.ko.md --preview --watch",
+    "preview:ja": "marp slides.ja.md --preview --watch"
+  },
+  "devDependencies": {
+    "@marp-team/marp-cli": "^3.4.0"
+  }
+}
